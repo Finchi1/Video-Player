@@ -9,8 +9,6 @@
 int main(int argc, char* argv[])
 {
 	QApplication a(argc, argv);
-
-	MediaPlayer w;
 	QStringList arguments = QCoreApplication::arguments();
 	QTextCodec* codec = QTextCodec::codecForName("Windows-1251");
 
@@ -99,6 +97,7 @@ int main(int argc, char* argv[])
 			shared.unlock();
 		}
 	}
+	MediaPlayer w;
 	QList<QString> content;
 	QTimer checkTimer;
 	auto checkArgs = [&w, &shared, &content, &codec]()
@@ -205,4 +204,3 @@ int main(int argc, char* argv[])
 
 	return a.exec();
 }
-
