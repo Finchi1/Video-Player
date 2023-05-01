@@ -1,0 +1,22 @@
+<UI version="4.0" >
+ <class>VideoWidgetClass</class>
+ <widget class="QVideoWidget" name="VideoWidgetClass" >
+  <property name="objectName" >
+   <string notr="true">VideoWidgetClass</string>
+  </property>
+  <property name="geometry" >
+   <rect>
+	<x>0</x>
+	<y>0</y>
+	<width>600</width>
+	<height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>VideoWidget</string>
+  </property>$centralwidget$
+ </widget>
+ <layoutDefault spacing="6" margin="11" />
+ <pixmapfunction></pixmapfunction>
+ <connections/>
+</UI>

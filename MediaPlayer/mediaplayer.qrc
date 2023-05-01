@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/plate-images">
+        <file>next.png</file>
+        <file>open.png</file>
+        <file>pause.png</file>
+        <file>perv.png</file>
+        <file>play.png</file>
+        <file>fullscreen.png</file>
+        <file>playlist.png</file>
+        <file>plus.png</file>
+    </qresource>
+    <qresource prefix="/window-icon">
+        <file>player_icon.ico</file>
+    </qresource>
+</RCC>
